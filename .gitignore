@@ -1,0 +1,34 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+venv311/
+.env/
+.venv/
+
+# Secrets
+.env
+.streamlit/secrets.toml
+serviceAccountKey.json
+
+# Model files - do not upload large models
+*.keras
+*.h5
+*.pth
+*.pt
+*.safetensors
+
+# Hugging Face cache
+.cache/
+huggingface-cache/
+
+# IDE
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
